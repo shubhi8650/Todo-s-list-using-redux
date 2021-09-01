@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Lato:wght@300&family=Nunito+Sans&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito Sans', sans-serif;
+    letter-spacing: 1px;
+    background-color: bisque;
+}
+
+input{
+    background-color:lightblue;
+    margin-top: 20px;
+    font-size: 17px;
+    width: 250px;
+    height: 30px;
+    border: none lightgray;
+    border-radius: 5px white 1px;
+    padding: 5px;
+    box-shadow: -1px 9px 40px -6px rgba(18,17,17,0.75);
+-webkit-box-shadow: -1px 9px 40px -6px rgba(18,17,17,0.75);
+-moz-box-shadow: -1px 9px 40px -6px rgba(18,17,17,0.75);
+}
+
+button{
+    width: 30px;
+    margin-left: 5px;
+    height: 30px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: -1px 9px 40px -6px rgba(18,17,17,0.75);
+-webkit-box-shadow: -1px 9px 40px -6px rgba(18,17,17,0.75);
+-moz-box-shadow: -1px 9px 40px -6px rgba(18,17,17,0.75);
+}
+
+.each-data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:10px 0;
+    width: 280px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: lightblue;
+    padding: 10px;
+    max-width: 100%;
+    box-shadow: -1px 9px 40px -6px rgba(18,17,17,0.75);
+-webkit-box-shadow: -1px 9px 40px -6px rgba(18,17,17,0.75);
+-moz-box-shadow: -1px 9px 40px -6px rgba(18,17,17,0.75);
+}
+
+.each-data:hover{
+    transition: .4s;
+    background-color: lightseagreen;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+
+.remove-data button{
+    background-color: crimson;
+    margin: 10px 0;
+    color: white;
+    width: 100%;
+    height: 30px;
+}
+
+.hidden{
+    visibility: hidden;
+}
